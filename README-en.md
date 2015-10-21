@@ -5,6 +5,10 @@ The BeerJS group of Jaen, in Spain
 Click the <img src="http://beerjs.github.io/sf/assets/watch.png" height="18"> button (top and left in this same page) 
 and you will be notified about any new meeting or event we may organize.
 
+## Next event
+
+No event scheduled at this moment.
+
 ## Organizer
 
 * Víctor Rivas
