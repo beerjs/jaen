@@ -13,3 +13,7 @@ en esta misma página, te llegarán notificaciones de cada encuentro o evento qu
   * GitHub: https://github.com/vrivas
   * Twitter: https://twitter.com/vrsantos
 
+## Histórico
+
+### 21-Oct-2015: Comenzamos
+Creación del grupo y configuración de este repositorio
