@@ -9,6 +9,10 @@ Ten en cuenta que el propósito de beer.js es crear espacios para fortalecer com
 
 Todos los eventos, actividades y espacios asociados a beer.js están sujetos al  [Código de Conducta del Ciudadano (Citizen Code of Conduct)](http://citizencodeofconduct.org/), que muy brevemenete se resume en que no se acepta ningún tipo de abuso ni comportamiento irrespetuoso.
 
+## Próximo evento
+
+Actualmente no hay ningún evento programado
+
 ## Organizador
 
 * Víctor Rivas
