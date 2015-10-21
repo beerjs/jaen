@@ -1,4 +1,4 @@
-# BeerJS Jaen
+# BeerJS Jaén (Spain)
 
 El grupo de BeerJS en Jaén, España.
 
