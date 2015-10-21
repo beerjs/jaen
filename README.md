@@ -1,7 +1,7 @@
 # BeerJS Jaén (Spain)
 
 
-![BeerJS](https://raw.githubusercontent.com/beerjs/jaen/images/beerjs.svg)El grupo de BeerJS en Jaén, España.
+![BeerJS](https://raw.githubusercontent.com/beerjs/jaen/master/images/beerjs.svg)El grupo de BeerJS en Jaén, España.
 
 Si haces click en el botón <img src="http://beerjs.github.io/sf/assets/watch.png" height="18"> que hay arriba, a la derecha,
 en esta misma página, te llegarán notificaciones de cada encuentro o evento que organicemos.
