@@ -13,3 +13,8 @@ and you will be notified about any new meeting or event we may organize.
   * GitHub: https://github.com/vrivas
   * Twitter: https://twitter.com/vrsantos
 
+## History
+
+### 21-Oct-2015: Starting
+Creation of this group and setting up the repo.
+
