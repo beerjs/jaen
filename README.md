@@ -8,7 +8,7 @@ and you will be notified about any new meeting or event we may organize.
 ## Organizer
 
 * Víctor Rivas
-  * Web: https://vrivas.es
+  * Web: http://vrivas.es
   * Mail: vrivas@ujaen.es
   * GitHub: https://github.com/vrivas
   * Twitter: https://twitter.com/vrsantos
