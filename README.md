@@ -12,9 +12,9 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 
 ## Próximo evento
 
-Actualmente no hay ningún evento programado
+*12-Noviembre-2015*: Primera reunión, a las 19:30h en algún lugar de la UJA por determinar.
 
-## Organizador
+## Organizadores
 
 * Víctor Rivas
   * Web: http://vrivas.es
@@ -23,6 +23,7 @@ Actualmente no hay ningún evento programado
   * Twitter: https://twitter.com/vrsantos
 
 ## Histórico
-
+###12-Nov-2015: Primera reunión
+A las 19:30h en algún lugar de la UJA por determinar.
 ### 21-Oct-2015: Comenzamos
-Creación del grupo y configuración de este repositorio
+Creación del grupo y configuración de este repositorio.
