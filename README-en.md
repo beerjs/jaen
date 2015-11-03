@@ -6,10 +6,9 @@ Click the <img src="http://beerjs.github.io/sf/assets/watch.png" height="18"> bu
 and you will be notified about any new meeting or event we may organize.
 
 ## Next event
+*12-Nov-2015*: First meeting, at 19:30 hours, at some place (to be determined) of the building A3 of UJA
 
-No event scheduled at this moment.
-
-## Organizer
+## Organizers
 
 * Víctor Rivas
   * Web: http://vrivas.es
@@ -18,6 +17,8 @@ No event scheduled at this moment.
   * Twitter: https://twitter.com/vrsantos
 
 ## History
+###12-Nov-2015: First meeting
+At 19:30 hours, at some place (to be determined) of the building A3 of UJA
 
 ### 21-Oct-2015: Starting
 Creation of this group and setting up the repo.
