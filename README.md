@@ -12,7 +12,8 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 
 ## Próximo evento
 
-*12-Noviembre-2015*: Primera reunión, a las 19:30h en algún lugar de la UJA por determinar.
+*12-Noviembre-2015*: Primera reunión, a las 19:30h en el hall del edificio A3 de la UJA. Desde allí nos iremos al lugar que nos hayan dejado.
+Por cierto: el día 12 de noviembre hay una carrera solidaria dentro de la UJA, por lo que no estará permitido el acceso por la tarde al aparcamiento... ni para entrar, ni para sacar el coche. Tenedlo en cuenta.
 
 ## Organizadores
 
