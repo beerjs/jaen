@@ -28,6 +28,6 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 
 ## Histórico
 ###12-Nov-2015: Primera reunión
-A las 19:30h en algún lugar de la UJA por determinar.
+A las 19:30h en la dependencia A3-911 de la UJA.
 ### 21-Oct-2015: Comenzamos
 Creación del grupo y configuración de este repositorio.
