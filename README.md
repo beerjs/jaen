@@ -26,8 +26,15 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
   * GitHub: https://github.com/vrivas
   * Twitter: https://twitter.com/vrsantos
 
+* José Rosell García
+  * Mail: joseja8@gmail.com
+  * GitHub: https://github.com/joseja8
+  * Twitter: https://twitter.com/joseja_8
+
 ## Histórico
 ###12-Nov-2015: Primera reunión
 A las 19:30h en la dependencia A3-911 de la UJA.
+@vrivas, Manuel Cano, M. Angeles Godino, @spawnsito, @joseja8, @adpl, @lynx901, Angel Luis
+
 ### 21-Oct-2015: Comenzamos
 Creación del grupo y configuración de este repositorio.
