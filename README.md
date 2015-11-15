@@ -12,11 +12,9 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 
 ## Próximo evento
 
-*12-Noviembre-2015*: Primera reunión, a las 19:30h en la dependencia A3-911 del edificio A3 de la UJA. Esta sala es la que se usa a mediodía para que alumnos y profesores puedan comer.
+*10-Diciembre-2015*: Segunda reunión, a las 19:45h de nuevo en la dependencia A3-911 del edificio A3 de la UJA (recordad, en la planta sótano del edificio A3). 
 
-**IMPORTANTE**: Me han pedido desde el Vic. de Estudiantes que al ser un recinto académico no llevemos ninguna bebida alcohólica. Por tanto, al menos para esta primera reunión lo haremos así y discutiremos sobre si seguir con las misma tónica (nunca mejor dicho) o movernos a otro sitio.
-
-**IMPORTANTE TAMBIÉN**: El día 12 de noviembre hay una carrera solidaria dentro de la UJA, por lo que no estará permitido el acceso por la tarde al aparcamiento... ni para entrar, ni para sacar el coche. Tenedlo en cuenta.
+Como en la anterior quedada, será una reunión 0.0 ;) (i.e., sin alcohol). No olvidéis traer algo para compartir :)
 
 ## Organizadores
 
@@ -32,6 +30,10 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
   * Twitter: https://twitter.com/joseja_8
 
 ## Histórico
+
+###10-Dic-2015: Segunda reunión
+A las 19:45h en la dependencia A3-911 de la UJA.
+
 ###12-Nov-2015: Primera reunión
 A las 19:30h en la dependencia A3-911 de la UJA.
 @vrivas, Manuel Cano, M. Angeles Godino, @spawnsito, @joseja8, @adpl, @lynx901, Angel Luis
