@@ -6,7 +6,7 @@ Click the <img src="http://beerjs.github.io/sf/assets/watch.png" height="18"> bu
 and you will be notified about any new meeting or event we may organize.
 
 ## Next event
-*12-Nov-2015*: First meeting, at 19:30 hours, at the hall of the building A3 of UJA
+*10-Dec-2015*: Second meeting, at 19:45 hours, at room 911 of building A3 (University of Jaen)
 
 ## Organizers
 
@@ -17,6 +17,9 @@ and you will be notified about any new meeting or event we may organize.
   * Twitter: https://twitter.com/vrsantos
 
 ## History
+*10-Dec-2015*: Second meeting
+At 19:45 hours, at room 911 of building A3 (University of Jaen)
+
 ###12-Nov-2015: First meeting
 At 19:30 hours, at some place (to be determined) of the building A3 of UJA
 
