@@ -14,6 +14,7 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 
 *10-Diciembre-2015*: Segunda reunión, a las 19:45h de nuevo en la dependencia A3-911 del edificio A3 de la UJA (recordad, en la planta sótano del edificio A3). 
 
+@criso123, @spawnsito, @lynx901, @joseja8, @adpl, @vrivas y 
 Como en la anterior quedada, será una reunión 0.0 ;) (i.e., sin alcohol). No olvidéis traer algo para compartir :)
 
 ## Organizadores
