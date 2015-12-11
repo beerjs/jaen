@@ -11,12 +11,8 @@ Ten en cuenta que el propósito de beer.js es crear espacios para fortalecer com
 Todos los eventos, actividades y espacios asociados a beer.js están sujetos al  [Código de Conducta del Ciudadano](http://es.confcodeofconduct.com/) (o si lo prefieres en su versión original en inglés: [Citizen Code of Conduct](http://citizencodeofconduct.org/)), que muy brevemenete se resume en que no se acepta ningún tipo de abuso ni comportamiento irrespetuoso.
 
 ## Próximo evento
-*21-Enero-2016*:
-*10-Diciembre-2015*: Segunda reunión, a las 19:45h de nuevo en la dependencia A3-911 del edificio A3 de la UJA (recordad, en la planta sótano del edificio A3). 
+*21-Enero-2016*: Fecha provisional; hora: 19:45 posiblemente
 
-@criso123, @spawnsito, @lynx901, @joseja8, @adpl, @vrivas y @juanfra1990
-
-Como en la anterior quedada, será una reunión 0.0 ;) (i.e., sin alcohol). No olvidéis traer algo para compartir :)
 
 ## Organizadores
 
@@ -34,7 +30,10 @@ Como en la anterior quedada, será una reunión 0.0 ;) (i.e., sin alcohol). No o
 ## Histórico
 
 ###10-Dic-2015: Segunda reunión
-A las 19:45h en la dependencia A3-911 de la UJA.
+*10-Diciembre-2015*: Segunda reunión, a las 19:45h de nuevo en la dependencia A3-911 del edificio A3 de la UJA (recordad, en la planta sótano del edificio A3). 
+Como en la anterior quedada, será una reunión 0.0 ;) (i.e., sin alcohol). No olvidéis traer algo para compartir :)
+Asistieron: @criso123, @spawnsito, @lynx901, @joseja8, @adpl, @vrivas y @juanfra1990
+Hablamos de: map, reduce, filter y foreach; también de gulp y browser-sync, entre otras.
 
 ###12-Nov-2015: Primera reunión
 A las 19:30h en la dependencia A3-911 de la UJA.
