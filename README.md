@@ -32,6 +32,9 @@ Aunque en un principio habíamos quedado el día 21 de enero, finalmente tuvimos
 
 Por lo pronto, a la hora prefijada (19:45) solo estaba @vrivas :'( 
 
+Finalmente, asistimos @vrivas, @joseja8 y @adpl... y estuvimos viendo un poco por encima cómo funciona Scala.
+
+
 
 ###10-Dic-2015: Segunda reunión
 *10-Diciembre-2015*: Segunda reunión, a las 19:45h de nuevo en la dependencia A3-911 del edificio A3 de la UJA (recordad, en la planta sótano del edificio A3). 
