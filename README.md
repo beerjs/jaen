@@ -1,6 +1,10 @@
 # BeerJS Jaén (Spain)
+## Próximo evento
+#### 5-May-2016: 4ª reunión
+* 20:30 horas, dependencia A3-911 del edificio A3 de la UJA.
+* ¿De qué temas hablaremos?[Lo estamnos discutiendo en el issue #7](https://github.com/beerjs/jaen/issues/7)
 
-
+## ¿Qué es esto?
 ![BeerJS](https://raw.githubusercontent.com/beerjs/jaen/master/images/beerjs.png)El grupo de BeerJS en Jaén, España.
 
 Si haces click en el botón <img src="http://beerjs.github.io/sf/assets/watch.png" height="18"> que hay arriba, a la derecha,
@@ -10,7 +14,6 @@ Ten en cuenta que el propósito de beer.js es crear espacios para fortalecer com
 
 Todos los eventos, actividades y espacios asociados a beer.js están sujetos al  [Código de Conducta del Ciudadano](http://es.confcodeofconduct.com/) (o si lo prefieres en su versión original en inglés: [Citizen Code of Conduct](http://citizencodeofconduct.org/)), que muy brevemenete se resume en que no se acepta ningún tipo de abuso ni comportamiento irrespetuoso.
 
-## Próximo evento
 
 
 ## Organizadores
