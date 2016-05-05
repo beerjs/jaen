@@ -6,7 +6,7 @@ Click the <img src="http://beerjs.github.io/sf/assets/watch.png" height="18"> bu
 and you will be notified about any new meeting or event we may organize.
 
 ## Next event
-*28-Jan-2016*: Probably the 3rd meeting, at 19:45h, same place (room 911, building A3, University of Jaen)
+Not scheduled yet. Last one was 5-May-2016.
 
 ## Organizers
 
@@ -17,6 +17,11 @@ and you will be notified about any new meeting or event we may organize.
   * Twitter: https://twitter.com/vrsantos
 
 ## History
+*05-May-2016*: 4th meeting, at 20:30h, same place (room 911, building A3, University of Jaen)
+
+
+*28-Jan-2016*: Probably the 3rd meeting, at 19:45h, same place (room 911, building A3, University of Jaen)
+
 *10-Dec-2015*: Second meeting
 At 19:45 hours, at room 911 of building A3 (University of Jaen)
 
