@@ -1,6 +1,7 @@
 # BeerJS Jaén (Spain)
 ## Próximo evento
 
+Aún no programado. El último se realizó el 5-5-2016
 
 ## ¿Qué es esto?
 ![BeerJS](https://raw.githubusercontent.com/beerjs/jaen/master/images/beerjs.png)El grupo de BeerJS en Jaén, España.
