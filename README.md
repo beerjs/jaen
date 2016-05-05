@@ -1,8 +1,6 @@
 # BeerJS Jaén (Spain)
 ## Próximo evento
-#### 5-May-2016: 4ª reunión
-* 20:30 horas, dependencia A3-911 del edificio A3 de la UJA.
-* ¿De qué temas hablaremos?[Lo estamnos discutiendo en el issue #7](https://github.com/beerjs/jaen/issues/7)
+
 
 ## ¿Qué es esto?
 ![BeerJS](https://raw.githubusercontent.com/beerjs/jaen/master/images/beerjs.png)El grupo de BeerJS en Jaén, España.
@@ -30,6 +28,19 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
   * Twitter: https://twitter.com/joseja_8
 
 ## Histórico
+#### 5-May-2016: Cuarta reunión
+Estupenda la reunión del 5 de mayo de 2016.
+Muuuuuuchos asistentes, entre ellos muchos alumnos/as de 1º del Grado en Informática.
+@vrsantos impartió un mini-tutorial de JavaScript (disponible en http://vrivas.es/javascript-2014) y @gdabi nos enseñó cómo crear un bot para telegram (disponible en https://github.com/gdabi/TAUJABot).
+
+Nos quedamos con las ganas de más... pero es que era muy tarde.... y vinieron a echarnos :)
+
+Algunas fotos del evento: 
+
+<img src="https://github.com/beerjs/jaen/blob/master/images/IMG_20160505_204735.jpg" width="50%" href="https://github.com/beerjs/jaen/blob/master/images/IMG_20160505_204735.jpg">
+
+<img src="https://github.com/beerjs/jaen/blob/master/images/IMG_20160505_211927.jpg" width="50%" href="https://github.com/beerjs/jaen/blob/master/images/IMG_20160505_211927.jpg">
+
 ###28-Ene-2016: Tercera Reunión
 Aunque en un principio habíamos quedado el día 21 de enero, finalmente tuvimos que trasladarlo a una semana más tarde, el 28, debido a que era época de exámenes.
 
