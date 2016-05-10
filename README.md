@@ -42,6 +42,10 @@ Algunas fotos del evento:
 
 <img src="https://github.com/beerjs/jaen/blob/master/images/IMG_20160505_211927.jpg" width="50%" href="https://github.com/beerjs/jaen/blob/master/images/IMG_20160505_211927.jpg">
 
+Y un vídeo grabado "en directo" con la última parte del evento:
+
+https://www.youtube.com/watch?v=NjSg9t0gRpw&feature=em-subs_digest
+
 ###28-Ene-2016: Tercera Reunión
 Aunque en un principio habíamos quedado el día 21 de enero, finalmente tuvimos que trasladarlo a una semana más tarde, el 28, debido a que era época de exámenes.
 
