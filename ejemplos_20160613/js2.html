@@ -1,0 +1,63 @@
+<div id="consola"></div>
+<script>
+function cout( texto ) {
+  document.getElementById("consola").innerHTML+="<p>"+texto+"</p>\n";
+}
+function clear() {
+  document.getElementById("consola").innerHTML="";
+}
+
+function Producto( nombre, precio) {
+  var nombre=nombre;
+  var precio=precio;
+
+  this.setPrecio=function( _precio ) {
+    if( _precio>=0 ) precio=_precio;
+  }
+  this.show=function() {
+    return "Producto: "+nombre
+        + " Precio: "+precio.toFixed(2)+"€";
+  }
+
+}
+
+clear();
+
+var patata=new Producto( "Patata", 10, 5);
+var butano=new Producto( "Butano", 12.34, 21);
+
+
+cout( patata.show() );
+cout( butano.show() );
+
+
+// Variables y métodos de clase
+Producto.fecha=new Date();
+
+Producto.claseMal=function() {
+  return this.nombre;
+}
+
+Producto.claseBien=function() {
+  return Producto.fecha;
+}
+
+//cout( Producto.claseMal() ); //ERROR!!
+cout( Producto.claseBien() );
+
+
+/// PROBLEMA:
+
+patata.precio=-34;
+cout( "Sin setPrecio: " +patata.show() );
+patata.setPrecio( 42 );
+cout( "Con setPrecio: " +patata.show() );
+patata.setPrecio( -20 );
+cout( "Con setPrecio y dato erróneo: " +patata.show() );
+
+Producto.prototype.getPrecio=function() {
+  return precio;
+}
+cout( "Con getPrecio: " +patata.getPrecio() );
+
+</Script>
