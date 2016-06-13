@@ -1,7 +1,7 @@
 # BeerJS Jaén (Spain)
 ## Próximo evento
 
-Aún no programado. El último se realizó el 5-5-2016
+Aún no programado. El último se realizó el 13-6-2016
 
 ## ¿Qué es esto?
 ![BeerJS](https://raw.githubusercontent.com/beerjs/jaen/master/images/beerjs.png)El grupo de BeerJS en Jaén, España.
@@ -32,7 +32,7 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 #### 5-May-2016: Cuarta reunión
 Estupenda la reunión del 5 de mayo de 2016.
 Muuuuuuchos asistentes, entre ellos muchos alumnos/as de 1º del Grado en Informática.
-@vrsantos impartió un mini-tutorial de JavaScript (disponible en http://vrivas.es/javascript-2014) y @gdabi nos enseñó cómo crear un bot para telegram (disponible en https://github.com/gdabi/TAUJABot).
+@vrsantos impartió un mini-tutorial de JavaScript (disponible en http://vrivas.es/javascript-2014) y @gDanix nos enseñó cómo crear un bot para telegram (disponible en https://github.com/gDanix/TAUJABot).
 
 Nos quedamos con las ganas de más... pero es que era muy tarde.... y vinieron a echarnos :)
 
