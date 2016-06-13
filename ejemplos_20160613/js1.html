@@ -1,0 +1,63 @@
+<div id="consola"></div>
+<script>
+function cout( texto ) {
+  document.getElementById("consola").innerHTML+="<p>"+texto+"</p>\n";
+}
+function clear() {
+  document.getElementById("consola").innerHTML="";
+}
+
+function Producto( nombre, precio) {
+  this.nombre=nombre;
+  this.precio=precio;
+
+  this.show=function() {
+    return "Producto: "+this.nombre
+        + " Precio: "+this.precio.toFixed(2)+"€";
+  }
+}
+
+clear();
+
+var patata=new Producto( "Patata", 10, 5);
+var butano=new Producto( "Butano", 12.34, 21);
+
+
+cout( patata.show() );
+cout( butano.show() );
+
+
+// Variables y métodos de clase
+Producto.fecha=new Date();
+
+Producto.claseMal=function() {
+  return this.nombre;
+}
+
+Producto.claseBien=function() {
+  return Producto.fecha;;
+}
+
+cout( Producto.claseMal() ); //ERROR!!
+cout( Producto.claseBien() );
+
+// Variables y métodos de instancia
+Producto.prototype.iva=21;
+
+Producto.prototype.show2=function() {
+ return "Producto: "+this.nombre
+        + " Precio: "+this.precio.toFixed(2)+"€"
+        + " IVA: "+(this.precio*this.iva/100).toFixed(2)+"€";
+}
+
+
+cout( patata.show2() );
+cout( butano.show2() );
+
+
+/// PROBLEMA:
+
+patata.precio=-34;
+
+cout( patata.show2() );
+</Script>
