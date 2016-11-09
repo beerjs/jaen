@@ -1,7 +1,7 @@
 # BeerJS Jaén (Spain)
-## Próximo evento
+## Próximo evento: 30-nov-2016
 
-La próxima reunión será el ?? de noviembre de 2016. A las 19:45h en el sitio de siempre dependencia A3-911 del edificio A3 de la UJA (planta sótano del edificio A3). 
+La próxima reunión será el 30 de noviembre de 2016. A las 19:45h en el sitio de siempre dependencia A3-911 del edificio A3 de la UJA (planta sótano del edificio A3). 
 
 ## ¿Qué es esto?
 ![BeerJS](https://raw.githubusercontent.com/beerjs/jaen/master/images/beerjs.png)El grupo de BeerJS en Jaén, España.
