@@ -29,6 +29,10 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
   * Twitter: https://twitter.com/joseja_8
 
 ## Histórico
+#### 30-Nov-2016: 6ª reunión
+Asistentes:
+@vrivas, @algarcia, @abpp0007, @zciezparx, @jva720, 
+
 #### 26-Oct-2016: 5ª reunión
 Poca gente.. pero muy fructífera al contar con nuevas incorporaciones.
 
