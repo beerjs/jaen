@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Promesas 1</title>
+    <script>
+    function consoleAdd( mensaje ) {
+      document.getElementById("console").innerHTML+=mensaje+"\n";
+    }
+    function consoleAddLn( mensaje ) {
+      document.getElementById("console").innerHTML+=mensaje+"<br/>\n";
+    }
+    function console( mensaje ) {
+      document.getElementById("console").innerHTML=mensaje;
+    }
+
+    function nuevaPromesa() {
+      var p1=new Promise( function( resolve, reject )  {
+        consoleAdd( "Iniciando promesa...");
+        var valor=Math.random();
+        if ( valor<0.5) {
+          resolve( valor );
+        } else {
+          reject(valor);
+        }
+      }
+    );
+      p1
+      .then(
+        function( valor ) {
+          consoleAddLn( "then-cumplida: La promesa se ha cumplido con valor "+valor);
+        }
+        , function( razon ) {
+          consoleAddLn( "then-rechada: La promesa NO se ha cumplido con razon "+razon);
+        }
+      )
+      .catch(
+        function( exc ) {
+          conAddLn( "catch: "+exc.message );
+        }
+      );
+
+      return p1;
+    };
+
+    function asignaEventos() {
+      document.getElementById('boton').addEventListener( "click", nuevaPromesa);
+    }
+    </script>
+    </head>
+    <body>
+    <h1>Promesas 1: El ejemplo más simple</h1>
+    <button id="boton">Crear nueva promesa</button>
+    <div id="console">
+    </div>
+
+    <script>
+      asignaEventos();
+    </script>
+    </body>

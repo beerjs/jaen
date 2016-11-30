@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Promesas 4</title>
+    <script>
+    var numIntentos=0;
+    var adivinar=Math.floor(100*Math.random())+1;
+    function conAdd( mensaje ) {
+      document.getElementById("con").innerHTML+=mensaje+"\n";
+    }
+    function conAddLn( mensaje ) {
+      document.getElementById("con").innerHTML+=mensaje+"<br/>\n";
+    }
+    function con( mensaje ) {
+      document.getElementById("con").innerHTML=mensaje;
+    }
+
+    function nuevaPromesa( evento ) {
+      evento.preventDefault();
+      var p1=new Promise( function( resolve, reject )  {
+        var nI=++numIntentos;
+        var nU=parseInt(document.getElementById('numUsuario').value);
+        if ( nU==adivinar ) {
+          resolve( {"adivinar": adivinar, "nI":nI} );
+        } else {
+          reject( {"nU": nU, "nI": nI, "help":(nU>adivinar?"mayor":"menor")}) ; // OJO AL VALOR DE NUMPROMESAS
+        }
+      });
+
+      p1
+      .then(
+        function( datos ) {
+          conAddLn( "Has adivinado el número, era "+datos.adivinar );
+          document.getElementById('numUsuario').setAttribute( "disabled", true );
+        }
+        , function( datos ) {
+          conAddLn( "Intento "+datos.nI
+            +": el número "+datos.nU
+            + " es "+datos.help
+            +" que el número que buscamos.");
+          document.getElementById('numUsuario').setAttribute( "value", "" );
+        }
+      )
+      .catch(
+        function( exc ) {
+          conAddLn( "catch: "+exc.message );
+        }
+      );
+
+      return false;
+    }
+
+    function asignaEventos() {
+      document.getElementById('f1').addEventListener( "submit",nuevaPromesa);
+    }
+    </script>
+    </head>
+    <body>
+    <h1>Promesas 4: ¿Qué número estoy pensando?</h1>
+    <form id="f1">
+      <input type="text" size="10" id="numUsuario">
+    </form>
+    <div id="con">
+    </div>
+
+    <script>
+      asignaEventos();
+    </script>
+    </body>

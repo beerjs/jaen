@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Promesas 3</title>
+    <script>
+    /**
+    Funciones para escribir en pantalla
+    */
+    function conAdd( mensaje ) {
+      document.getElementById("con").innerHTML+=mensaje+"\n";
+    }
+    function conAddLn( mensaje ) {
+      document.getElementById("con").innerHTML+=mensaje+"<br/>\n";
+    }
+    function con( mensaje ) {
+      document.getElementById("con").innerHTML=mensaje;
+    }
+
+    // Contador de promesas
+    var numPromesas=0;
+
+    // Función que crea la promesa y establece los valores then-resolve, then-reject y catch
+    function nuevaPromesa() {
+      var p1=new Promise( function( resolve, reject )  {
+        conAddLn( "Iniciando promesa "+(++numPromesas)+"...");
+        var nP=numPromesas;
+        window.setTimeout( function() {
+          var valor=Math.random();
+          if ( valor<0.5) {
+            resolve( {"valor": valor, "numPromesa": nP} ); // OJO AL VALOR DE NUMPROMESAS
+          } else {
+            reject( {"valor": valor, "numPromesa": nP} ); // OJO AL VALOR DE NUMPROMESAS
+          }
+        }, Math.floor(Math.random()*5000) );
+      });
+      p1
+      .then(
+        function( datos ) {
+          conAddLn( "then-cumplida: La promesa "+datos.numPromesa+" se ha cumplido con valor "+datos.valor);
+        }
+        , function( datos ) {
+          conAddLn( "then-rechada: La promesa "+datos.numPromesa+" NO se ha cumplido con valor "+datos.valor);
+        }
+      )
+      .catch(
+        function( exc ) {
+          conAddLn( "catch: "+exc.message );
+        }
+      );
+
+      return p1;
+    };
+
+
+    // Asignamos eventos a los elementos que lo requieran
+    function asignaEventos() {
+      document.getElementById('boton').addEventListener( "click" , nuevaPromesa);
+    }
+    </script>
+    </head>
+    <body>
+    <h1>Promesas 3: Solucionado el valor del número de la promesa</h1>
+    <button id="boton">Crear nueva promesa</button>
+    <div id="con">
+    </div>
+
+    <script>
+      asignaEventos();
+    </script>
+    </body>

@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Promesas 2</title>
+    <script>
+    var numPromesas=0;
+    function consoleAdd( mensaje ) {
+      document.getElementById("console").innerHTML+=mensaje+"\n";
+    }
+    function consoleAddLn( mensaje ) {
+      document.getElementById("console").innerHTML+=mensaje+"<br/>\n";
+    }
+    function console( mensaje ) {
+      document.getElementById("console").innerHTML=mensaje;
+    }
+
+    function nuevaPromesa() {
+      var p1=new Promise( function( resolve, reject )  {
+        consoleAddLn( "Iniciando promesa "+(++numPromesas)+"...");
+        window.setTimeout( function() {
+          var valor=Math.random();
+          if ( valor<0.5) {
+            resolve( {"valor": valor, "numPromesa": numPromesas} ); // OJO AL VALOR DE NUMPROMESAS
+          } else {
+            reject( {"valor": valor, "numPromesa": numPromesas} ); // OJO AL VALOR DE NUMPROMESAS
+          }
+        }, 2000 );
+      });
+      p1
+      .then(
+        function( datos ) {
+          consoleAddLn( "then-cumplida: La promesa "+datos.numPromesa+" se ha cumplido con valor "+datos.valor);
+        }
+        , function( datos ) {
+          consoleAddLn( "then-rechada: La promesa "+datos.numPromesa+" NO se ha cumplido con valor "+datos.valor);
+        }
+      )
+      .catch(
+        function( exc ) {
+          conAddLn( "catch: "+exc.message );
+        }
+      );
+      return p1;
+    };
+
+    function asignaEventos() {
+      document.getElementById('boton').addEventListener( "click",nuevaPromesa);
+    }
+    </script>
+    </head>
+    <body>
+    <h1>Promesas 2: ¡¡OJO a los valores devueltos por la promesa!!</h1>
+    <button id="boton">Crear nueva promesa</button>
+    <div id="console">
+    </div>
+
+    <script>
+      asignaEventos();
+    </script>
+    </body>
