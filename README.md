@@ -1,5 +1,5 @@
 # BeerJS Jaén (Spain)
-## Próximo evento: Será en 2017, aunque aún no sabemos cuándo.
+## Próximo evento: Será en 2017, aunque aún no sabemos la fecha exacta.
 
 
 ## ¿Qué es esto?
