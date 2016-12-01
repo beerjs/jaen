@@ -1,7 +1,6 @@
 # BeerJS Jaén (Spain)
-## Próximo evento: 30-nov-2016
+## Próximo evento: Será en 2017, aunque aún no sabemos cuándo.
 
-La próxima reunión será el 30 de noviembre de 2016. A las 19:45h en el sitio de siempre dependencia A3-911 del edificio A3 de la UJA (planta sótano del edificio A3). 
 
 ## ¿Qué es esto?
 ![BeerJS](https://raw.githubusercontent.com/beerjs/jaen/master/images/beerjs.png)El grupo de BeerJS en Jaén, España.
@@ -30,8 +29,10 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 
 ## Histórico
 #### 30-Nov-2016: 6ª reunión
-Asistentes:
-@vrivas, @algarcia, @abpp0007, @zciezparx, @jva720, @AlexMerc
+La reunión ha tenido lugar el 30 de noviembre de 2016. A las 19:45h en el sitio de siempre dependencia A3-911 del edificio A3 de la UJA (planta sótano del edificio A3). 
+Asistentes: @vrivas, @algarcia, @abpp0007, @zciezparx, @jva720, @AlexMerc
+
+En resumen, #vrivas habló un rato sobre programación con promesas. Los ejemplos están en: https://github.com/beerjs/jaen/tree/master/ejemplos_promesas
 
 #### 26-Oct-2016: 5ª reunión
 Poca gente.. pero muy fructífera al contar con nuevas incorporaciones.
@@ -39,7 +40,7 @@ Poca gente.. pero muy fructífera al contar con nuevas incorporaciones.
 #### 5-May-2016: Cuarta reunión
 Estupenda la reunión del 5 de mayo de 2016.
 Muuuuuuchos asistentes, entre ellos muchos alumnos/as de 1º del Grado en Informática.
-@vrsantos impartió un mini-tutorial de JavaScript (disponible en http://vrivas.es/javascript-2014) y @gDanix nos enseñó cómo crear un bot para telegram (disponible en https://github.com/gDanix/TAUJABot).
+@vrivas impartió un mini-tutorial de JavaScript (disponible en http://vrivas.es/javascript-2014) y @gDanix nos enseñó cómo crear un bot para telegram (disponible en https://github.com/gDanix/TAUJABot).
 
 Nos quedamos con las ganas de más... pero es que era muy tarde.... y vinieron a echarnos :)
 
