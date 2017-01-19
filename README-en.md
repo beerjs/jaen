@@ -6,7 +6,7 @@ Click the <img src="http://beerjs.github.io/sf/assets/watch.png" height="18"> bu
 and you will be notified about any new meeting or event we may organize.
 
 ## Next event
-Next meeting: 26-october-2016, same place (A3-911, University of Jaen), same hour (19:45h)
+Next meeting: 01-February-2017, same place (A3-911, University of Jaen), same hour (19:45h)
 
 ## Organizers
 
