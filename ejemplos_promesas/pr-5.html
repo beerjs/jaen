@@ -1,0 +1,127 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Promesas 5</title>
+    <script>
+    // Tratamiento de la información en formato JSON
+
+    function procesaDatos() {
+      var toRet=null;
+      if (this.readyState == 4 && this.status == 200 ) {
+        toRet=eval( "("+this.responseText+")" );
+      }
+      return toRet;
+    }
+
+    function procesaDatos( visualizador ) {
+      var p=newPromise( function( resolve, reject ) {
+        var toRet=null;
+        if (this.readyState == 4 && this.status == 200 ) {
+          toRet=eval( "("+this.responseText+")" );
+        }
+        return toRet;
+      })
+    }
+    // Creación de la conexión
+    function crearConexion() {
+      var httpRequest;
+      var c=new Promise( function( resolve, reject ) {
+        if (window.XMLHttpRequest) {
+          //El explorador implementa la interfaz de forma nativa
+          httpRequest = new XMLHttpRequest();
+        } else if (window.ActiveXObject) {
+          //El explorador permite crear objetos ActiveX
+          try {
+            httpRequest = new ActiveXObject("MSXML2.XMLHTTP");
+          } catch (e) {
+            try {
+              httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+            } catch (e) {}
+          }
+        }
+
+        if( httpRequest ) {
+          resolve( httpRequest )
+        } else {
+          reject( "No se ha podido crear objeto httpRequest");
+        }
+      }
+    );
+
+    return c;
+  }
+
+    // Función que realiza la llamada al servidor para obtener los vuelos
+    function obtenerVuelos(conexion) {
+      console.log( "ObtenerVuelos..." );
+      var origen=document.getElementById('origen').value;
+      var destino=document.getElementById('destino').value;
+      var url= "http://vrivas.es/test-promesas/vuelos.php"+
+        "?"+"origen="+origen+
+        "&"*"destino="+destino;
+      conexion.open( "GET", url );
+      conexion.send();
+    }
+    // Función que realiza la llamada al servidor para obtener los hoteles
+    function obtenerHoteles(conexion) {
+      var origen=document.getElementById('origen').value;
+      var destino=document.getElementById('destino').value;
+      var url= "http://vrivas.es/test-promesas/hoteles.php"+
+        "?"+"origen="+origen+
+        "&"*"destino="+destino;
+      conexion.open( "GET", url );
+      conexion.send();
+    }
+
+    function conAdd( mensaje, div ) {
+      div=div||"con";
+      document.getElementById(div).innerHTML+=mensaje+"\n";
+    }
+    function conAddLn( mensaje ) {
+      document.getElementById(div).innerHTML+=mensaje+"<br/>\n";
+    }
+    function con( mensaje ) {
+      document.getElementById(div).innerHTML=mensaje;
+    }
+    function borraTodo() {
+      con( "" );
+      con( "", "vuelos" );
+      con( "", "hoteles" );
+    }
+    function visualizarExcepcion( exc ) {
+      conAddLn( exc.message );
+    }
+
+    function busca() {
+      var conexionVuelos=crearConexion();
+      conexionVuelos
+        .then(obtenerVuelos,conAddLn)
+        .then(visualizarVuelos, conAddLn);
+        .catch(visualizarException);
+    }
+
+    function asignaEventos() {
+      document.getElementById('buscar').addEventListener( "click",busca);
+    }
+    </script>
+    </head>
+    <body>
+    <h1>Promesas 5: Llamadas asíncronas</h1>
+    <form id="f1">
+      <label for="origen">Ciudad de origen: </label> <input type="text" size="30" id="origen">
+      <label for="destino">Ciudad de destino: </label> <input type="text" size="30" id="destino">
+      <button id="buscar">Buscar vuelos y hoteles</button>
+    </form>
+    <div id="con"></div>
+    <div id="wrapper-vuelos">
+      <h2>Vuelos</h2>
+      <div id="vuelos"></div>
+    </div>
+    <div id="wrapper-hoteles">
+      <h2>Hoteles</h2>
+      <div id="hoteles"></div>
+    </div>
+    <script>
+      asignaEventos();
+    </script>
+    </body>

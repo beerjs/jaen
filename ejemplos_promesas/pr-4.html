@@ -33,10 +33,10 @@
           conAddLn( "Has adivinado el número, era "+datos.adivinar );
           document.getElementById('numUsuario').setAttribute( "disabled", true );
         }
-        , function( datos ) {
-          conAddLn( "Intento "+datos.nI
-            +": el número "+datos.nU
-            + " es "+datos.help
+        , function( razon ) {
+          conAddLn( "Intento "+razon.nI
+            +": el número "+razon.nU
+            + " es "+razon.help
             +" que el número que buscamos.");
           document.getElementById('numUsuario').setAttribute( "value", "" );
         }

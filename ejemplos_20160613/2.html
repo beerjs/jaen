@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<title>Formularios</title>
+
+<script>
+function calculaResultado() {
+ var pr=document.getElementById("precio").value;
+ var ca=document.getElementById("cantidad").value;
+
+  document.getElementById('consola').innerHTML="El precio final es "+(pr*ca);
+}
+
+</script>
+</head>
+<body>
+<h1>Ejemplo con fomrularios</h1>
+<form>
+  Cantidad: <input type="text" id="cantidad">
+  Precio: <input type="text" id="precio">
+  <button id="calcular"
+          onClick="calculaResultado(); return false;">Calcular resultado</button>
+</form>
+<div id="consola">
+</div>
+  <script>
+</Script>
+</body>
+</html>

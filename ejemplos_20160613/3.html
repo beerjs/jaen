@@ -1,0 +1,33 @@
+<html>
+
+<head>
+<title>Adivinaar</title>
+
+<script>
+var adivinar=Math.floor( Math.random()*100)+1;
+function comprueba() {
+  var dat=document.getElementById('dato').value*1;
+ if( dat==adivinar) {
+   alert( "Has acertado");
+ }else{
+   alert( "Intentalo de nuevo. El que buscamos "+
+   ((dat<adivinar)?" es mayor":"es menor")
+  );
+ }
+
+}
+</script>
+</head>
+<body>
+<h1>Ejemplo con fomrularios</h1>
+<form>
+  Numero: <input type="text" id="dato">
+  <button id="calcular"
+          onClick="comprueba(); return false;">Calcular resultado</button>
+</form>
+<div id="consola">
+</div>
+  <script>
+</Script>
+</body>
+</html>
