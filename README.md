@@ -1,5 +1,6 @@
 # BeerJS Jaén (Spain)
-## Próximo evento: Será en 2017, aunque aún no sabemos la fecha exacta.
+## Próximo evento: 01-Feb-2017, 19:45 horas
+En el sitio de siempre dependencia A3-911 del edificio A3 de la UJA (planta sótano del edificio A3). 
 
 
 ## ¿Qué es esto?
