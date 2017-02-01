@@ -31,7 +31,8 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 ## Histórico
 
 #### 1-Feb-2017: 7ª reunión
-Está el aula a reventar
+
+Estamos 7 personas
 
 #### 30-Nov-2016: 6ª reunión
 La reunión ha tenido lugar el 30 de noviembre de 2016. A las 19:45h en el sitio de siempre dependencia A3-911 del edificio A3 de la UJA (planta sótano del edificio A3). 
