@@ -29,6 +29,10 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
   * Twitter: https://twitter.com/joseja_8
 
 ## Histórico
+
+#### 1-Feb-2017: 7ª reunión
+Estamos 7 personas
+
 #### 30-Nov-2016: 6ª reunión
 La reunión ha tenido lugar el 30 de noviembre de 2016. A las 19:45h en el sitio de siempre dependencia A3-911 del edificio A3 de la UJA (planta sótano del edificio A3). 
 Asistentes: @vrivas, @algarcia, @abpp0007, @zciezparx, @jva720, @AlexMerc
